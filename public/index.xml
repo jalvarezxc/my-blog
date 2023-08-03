@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>J R A</title>
+    <link>http://example.org/</link>
+    <description>Recent content on J R A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2023 18:59:26 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post No1</title>
+      <link>http://example.org/posts/post-no1/</link>
+      <pubDate>Thu, 03 Aug 2023 18:59:26 -0400</pubDate>
+      
+      <guid>http://example.org/posts/post-no1/</guid>
+      <description>Intro: Hello, world! This is my new blog site. I will try to share some thoughts and ideas in here. I&amp;rsquo;m thinking of making the posts super short - maybe a little twitter-like, which tells me a lot of people have considered this at some point&amp;hellip; Actually, I believe people used to use journals the way some people use twitter - that&amp;rsquo;s at least according to Steve Martin: https://www.youtube.com/watch?v=Ttj5Nqof7Vw</description>
+    </item>
+    
+  </channel>
+</rss>
