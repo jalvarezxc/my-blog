@@ -6,7 +6,7 @@ draft: false
 
 ## On Building:
 
-"To build" is my current *motto*, or guiding principle. It is probably best summarized by Marc Andreessen's "It's Time to Build" essay, where he argues that our focus should be on [building](https://a16z.com/2020/04/18/its-time-to-build/). I also think this is the best thing we can do right now to ensure a good future awaits us. And while I do think other things are important, such as tearing down oppresive systems, and coming up with better, say, social programs (Yes, I lean left, but still centered!), we are in great need of more building. We need better sources of energy, more efficient modes of transport, more effective medicine, and we need to find other homes in the solar system and *beyond*. 
+"To build" is my current *motto*, or guiding principle. It is probably best summarized by Marc Andreessen's "It's Time to Build" essay, where he argues that our focus should be on [building](https://a16z.com/2020/04/18/its-time-to-build/). I also think this is the best thing we can do right now to ensure a good future awaits us. And while I do think other things are important, such as tearing down oppresive systems and coming up with better, say, social programs (Yes, I lean left, but still centered), we are in great need of more building. We need better sources of energy, more efficient modes of transport, more effective medicine, and we need to find other homes in the solar system and *beyond*. 
 
 
 
