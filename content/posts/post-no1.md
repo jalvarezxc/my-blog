@@ -1,5 +1,5 @@
 ---
-title: "Post no1"
+title: "Post No1"
 date: 2023-07-22T12:52:12-04:00
 draft: false
 ---

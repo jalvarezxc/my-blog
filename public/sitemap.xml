@@ -5,30 +5,35 @@
     <loc>http://example.org/</loc>
     <lastmod>2023-08-06T16:24:33-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no6/</loc>
+    <loc>http://example.org/posts/post-no7/</loc>
     <lastmod>2023-08-06T16:24:33-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/</loc>
+    <loc>http://example.org/posts/</loc>
     <lastmod>2023-08-06T16:24:33-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no5/</loc>
+    <loc>http://example.org/posts/post-no6/</loc>
     <lastmod>2023-07-30T19:32:44-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no4/</loc>
+    <loc>http://example.org/posts/post-no5/</loc>
     <lastmod>2023-07-29T23:14:02-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no3/</loc>
+    <loc>http://example.org/posts/post-no4/</loc>
     <lastmod>2023-07-27T20:51:28-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no2/</loc>
+    <loc>http://example.org/posts/post-no3/</loc>
     <lastmod>2023-07-25T22:22:07-04:00</lastmod>
   </url><url>
-    <loc>http://example.org/post/post-no1/</loc>
+    <loc>http://example.org/posts/post-no2/</loc>
+    <lastmod>2023-07-22T15:26:17-04:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/post-no1/</loc>
     <lastmod>2023-07-22T12:52:12-04:00</lastmod>
   </url><url>
     <loc>http://example.org/about/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
+  </url><url>
+    <loc>http://example.org/contact/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
   </url>
