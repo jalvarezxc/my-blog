@@ -8,6 +8,6 @@ menu: main
 
 ---
 
-Submit the form below to get in contact with me. 
+Fill out and submit the form below to get in contact with me. 
 
 {{< form-contact action="https://formspree.io/f/xeqbkloy"  >}}
