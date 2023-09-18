@@ -6,7 +6,25 @@
     <description>Recent content in Posts on J R A</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Aug 2023 16:24:33 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Sep 2023 15:45:07 -0400</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post No9</title>
+      <link>http://example.org/posts/post-no9/</link>
+      <pubDate>Sun, 17 Sep 2023 15:45:07 -0400</pubDate>
+      
+      <guid>http://example.org/posts/post-no9/</guid>
+      <description>On Descartes: I&amp;rsquo;m reading Descartes&amp;rsquo; Discourse on Method and Meditations on First Philosophy and I didn&amp;rsquo;t know that it was mostly a defense of theism! I&amp;rsquo;m not sure what I was expencting, as I only really knew that he was very influential, but I was surprised that this is the focus of the text. Now, I only recently started the book but because it is so short I&amp;rsquo;m already about half-way through it and I have some thoughts on it already&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Post No8</title>
+      <link>http://example.org/posts/post-no8/</link>
+      <pubDate>Sat, 02 Sep 2023 23:44:06 -0400</pubDate>
+      
+      <guid>http://example.org/posts/post-no8/</guid>
+      <description>On the Future: &amp;ldquo;We Wanted Flying Cars, Instead We Got 140 Characters.&amp;rdquo; This is a famous Peter Thiel quote that I think perfectly encapsulates his views on the current state of technology and innovation in the world. The argument is a simple yet powerful one: we&amp;rsquo;ve falling behind in technological progress. Half a century ago, people thought we would have flying cars by now, instead our only innovation has essentially come in the form of 0s and 1s, mostly related to or for the benefit of internet technologies.</description>
+    </item>
+    
     <item>
       <title>Post No7</title>
       <link>http://example.org/posts/post-no7/</link>
@@ -40,7 +58,7 @@
       <pubDate>Thu, 27 Jul 2023 20:51:28 -0400</pubDate>
       
       <guid>http://example.org/posts/post-no4/</guid>
-      <description>On Building: &amp;ldquo;To build&amp;rdquo; is my current motto, or guiding principle. It is probably best summarized by Marc Andreessen&amp;rsquo;s &amp;ldquo;It&amp;rsquo;s Time to Build&amp;rdquo; essay, where he argues that our focus should be on building. I also think this is the best thing we can do right now to ensure a good future awaits us. And while I do think other things are important, such as tearing down oppresive systems and coming up with better, say, social programs (Yes, I lean left, but still centered), we are in great need of more building.</description>
+      <description>On Building: &amp;ldquo;To build&amp;rdquo; is my current motto, or guiding principle. It is probably best summarized by Marc Andreessen&amp;rsquo;s &amp;ldquo;It&amp;rsquo;s Time to Build&amp;rdquo; essay, where he argues that our focus should be on building. I also think this is the best thing we can do right now to ensure a good future awaits us. And while I do think other things are important, such as tearing down oppresive systems and taking care of those in need, we are in urgent need of more building.</description>
     </item>
     
     <item>
