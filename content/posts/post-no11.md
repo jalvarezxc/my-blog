@@ -1,7 +1,7 @@
 ---
 title: "Post No11"
 date: 2023-09-24T17:43:34-04:00
-draft: true
+draft: false
 ---
 
 ## Update On Descartes:
