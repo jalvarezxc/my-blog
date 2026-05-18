@@ -4,13 +4,13 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import heroImage from '../assets/home-hero.png';
+import blogImage from '../assets/blog-image.png';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image={heroImage} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image={blogImage} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -27,6 +27,9 @@ import heroImage from '../assets/home-hero.png';
 				margin: 0 auto 2rem;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
+				max-width: 600px;
+				width: 100%;
+				height: auto;
 			}
 			h1 {
 				font-size: 3rem;
@@ -42,7 +45,7 @@ import heroImage from '../assets/home-hero.png';
 		<Header />
 		<main>
 			<section class="intro">
-				<Image src={heroImage} alt="Blog Hero" />
+				<Image src={blogImage} alt="Blog Hero" />
 				<h1>🚀 {SITE_TITLE}</h1>
 				<p>{SITE_DESCRIPTION}</p>
 			</section>
