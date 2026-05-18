@@ -15,5 +15,3 @@ I'm a little intoxicated. I'm not gonna lie. So what if it's not even 10pm and i
 Yeah, it's on. I'm not gonna do the farm animals but I like the idea of comparing two people together. It gives the whole thing a very "Turing" feel since people's ratings of the pictures will be more implicit than, say, choosing a number to represent each person's hottness like they do on hotornot.com.
 
 The first thing we're going to need is a lot of pictures. Unfortunately, Harvard doesn't keep a public centralized facebook, so I'm going to have to get all the images from the individual houses that people are in. Let the hacking begin..."
-
-(Dialogue from The Social Network: https://www.youtube.com/watch?v=uvap4gEOC5I&ab_channel=SonyPicturesHomeEntertainment)
