@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import blogHeroImage from '../../assets/blog-image.png';
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -15,10 +16,20 @@ const posts = (await getCollection('blog')).sort(
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image={blogHeroImage} />
 		<style>
 			main {
 				width: 960px;
+			}
+			.intro-image {
+				width: 100%;
+				margin-bottom: 2rem;
+			}
+			.intro-image img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
 			}
 			ul {
 				display: flex;
@@ -49,6 +60,8 @@ const posts = (await getCollection('blog')).sort(
 			ul li img {
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
+				aspect-ratio: 16/9;
+				object-fit: cover;
 			}
 			ul li a {
 				display: block;
@@ -89,6 +102,9 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			<section class="intro-image">
+				<Image src={blogHeroImage} alt="Blog header image" />
+			</section>
 			<section>
 				<ul>
 					{
@@ -96,7 +112,11 @@ const posts = (await getCollection('blog')).sort(
 							<li>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										typeof post.data.heroImage === 'string' ? (
+											<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										) : (
+											<Image src={post.data.heroImage} alt="" />
+										)
 									)}
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">

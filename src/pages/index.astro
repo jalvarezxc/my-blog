@@ -1,14 +1,16 @@
 ---
+import { Image } from 'astro:assets';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import heroImage from '../assets/home-hero.png';
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image={heroImage} />
 		<style>
 			main {
 				width: calc(100% - 2em);
@@ -19,6 +21,12 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			.intro {
 				text-align: center;
 				margin-bottom: 4em;
+			}
+			.intro img {
+				display: block;
+				margin: 0 auto 2rem;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
 			}
 			h1 {
 				font-size: 3rem;
@@ -34,6 +42,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<Header />
 		<main>
 			<section class="intro">
+				<Image src={heroImage} alt="Blog Hero" />
 				<h1>🚀 {SITE_TITLE}</h1>
 				<p>{SITE_DESCRIPTION}</p>
 			</section>
