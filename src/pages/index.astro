@@ -27,17 +27,24 @@ import blogImage from '../assets/blog-image.png';
 				margin: 0 auto 2rem;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
-				max-width: 600px;
+				max-width: 480px;
 				width: 100%;
 				height: auto;
 			}
 			h1 {
-				font-size: 3rem;
+				font-size: 2.5rem;
 				font-weight: 800;
+				margin-top: 1rem;
 			}
 			p {
-				font-size: 1.25rem;
+				font-size: 1.1rem;
 				color: #4b5563;
+				line-height: 1.6;
+			}
+			.content-section {
+				margin-top: 4em;
+				border-top: 1px solid rgba(var(--gray-light), 0.5);
+				padding-top: 2em;
 			}
 		</style>
 	</head>
@@ -46,10 +53,10 @@ import blogImage from '../assets/blog-image.png';
 		<main>
 			<section class="intro">
 				<Image src={blogImage} alt="Blog Hero" />
-				<h1>🚀 {SITE_TITLE}</h1>
+				<h1>{SITE_TITLE}</h1>
 				<p>{SITE_DESCRIPTION}</p>
 			</section>
-			<section>
+			<section class="content-section">
 				<p>
 					Welcome to my new blog. I will try to write things here that I think are worth sharing. 
 				</p>

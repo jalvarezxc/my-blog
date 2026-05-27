@@ -9,6 +9,14 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('May 18 2026')}
 	heroImage={homeHeroImage}
 >
+	<style>
+		/* Specifically targets the hero image rendered by the Layout on this page */
+		:global(.hero-image img) {
+			max-width: 480px;
+			margin: 0 auto;
+			display: block;
+		}
+	</style>
 	<p>
 		This is my new website! Hopefully I'm more active here. My posts will be a little old at first (written a couple years ago), but I will try to write new posts soon! Of course, I have new ideas and have a new perspective on a lot of things.
 	</p>
